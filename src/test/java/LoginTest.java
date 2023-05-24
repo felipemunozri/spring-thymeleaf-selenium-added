@@ -19,7 +19,8 @@ public class LoginTest {
     @BeforeClass
     public void setup() {
         // Configurar el driver de Chrome
-        System.setProperty("webdriver.chrome.driver", "./src/test/resources/chromedriver/chromedriver.exe");
+        //System.setProperty("webdriver.chrome.driver", "./src/test/resources/chromedriver/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "./src/test/resources/chromedriver/chromedriver");
         driver = new ChromeDriver();
     }
 
